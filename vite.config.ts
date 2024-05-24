@@ -7,22 +7,21 @@ import dts from "vite-plugin-dts";
 export default defineConfig({
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "/src"),
+      "@": path.resolve(__dirname, "src"),
     },
-    //@ts-expect-error - "Ingoring the unknown build error from typescript"
-    build: {
-      lib: {
-        entry: path.resolve(__dirname, "/src/components/index.tsx"),
-        name: "EchoUI",
-        fileName: "echo-ui",
-      },
-      rollupOptions: {
-        external: ["react", "react-dom"],
-        output: {
-          globals: {
-            react: "React",
-            "react-dom": "ReactDOM",
-          },
+  },
+  build: {
+    lib: {
+      entry: path.resolve(__dirname, "src/components/index.tsx"),
+      name: "EchoUI",
+      fileName: (format) => `echo-ui.${format}.js`,
+    },
+    rollupOptions: {
+      external: ["react", "react-dom"],
+      output: {
+        globals: {
+          react: "React",
+          "react-dom": "ReactDOM",
         },
       },
     },
