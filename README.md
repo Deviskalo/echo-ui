@@ -1,10 +1,10 @@
-# echo-ui
+# fancy-ui
 
-**echo-ui** is a versatile UI component library for React applications.
+**fancy-ui** is a versatile UI component library for React applications.
 
 ## Description
 
-**echo-ui** is a comprehensive collection of React components designed to accelerate the development of modern web applications. It offers a wide range of customizable UI elements, from basic buttons and inputs to complex data visualization components. Built with accessibility and performance in mind, **echo-ui** is suitable for both simple websites and large-scale enterprise applications.
+**fancy-ui** is a comprehensive collection of React components designed to accelerate the development of modern web applications. It offers a wide range of customizable UI elements, from basic buttons and inputs to complex data visualization components. Built with accessibility and performance in mind, **fancy-ui** is suitable for both simple websites and large-scale enterprise applications.
 
 ## Features
 
@@ -24,8 +24,10 @@
 
 ## Installation
 
-You can install **echo-ui** via npm:
+You can install **fancy-ui** via npm:
 
 ```bash
-npm install echo-ui
+npm install fancy-ui
+yarn add fancy-ui
+bun add fancy-ui
 ```
