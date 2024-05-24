@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+# echo-ui
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**echo-ui** is a versatile UI component library for React applications.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**echo-ui** is a comprehensive collection of React components designed to accelerate the development of modern web applications. It offers a wide range of customizable UI elements, from basic buttons and inputs to complex data visualization components. Built with accessibility and performance in mind, **echo-ui** is suitable for both simple websites and large-scale enterprise applications.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Modular and Reusable**: Easily integrate components into existing projects or build new applications from scratch.
+- **Responsive Design**: Components are responsive out-of-the-box, ensuring a seamless experience across devices.
+- **Customizable Styles**: Tailor components to fit your brand's aesthetic with extensive customization options.
+- **Accessible**: Designed with accessibility best practices to ensure inclusivity for all users.
+- **Developer-friendly**: Well-documented APIs and TypeScript support for type safety.
 
-- Configure the top-level `parserOptions` property like this:
+## Key Components
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- Buttons, Inputs, and Form Elements
+- Navigation and Menu Components
+- Modals, Alerts, and Notifications
+- Data Tables and Charts
+- Typography and Text Utilities
+
+## Installation
+
+You can install **echo-ui** via npm:
+
+```bash
+npm install echo-ui
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list

@@ -1,13 +1,16 @@
 {
   "name": "echo-ui",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "A versatile UI component library for React applications.",
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "main": "dist/echo-ui-umd.cjs",
   "module": "dist/echo-ui.js",
+  "types": "dist/echo-ui.es.d.ts",
   "exports": {
     ".": {
       "import": "./dist/echo-ui.js",
@@ -17,10 +20,15 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "prepublishOnly": "yarn build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.0",
@@ -56,5 +64,13 @@
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.9.1",
     "vite-tsconfig-paths": "^4.3.2"
-  }
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "library"
+  ],
+  "author": "Dev Iskalo",
+  "license": "MIT"
 }
