@@ -13,8 +13,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/components/index.tsx"),
-      name: "EchoUI",
-      fileName: (format) => `echo-ui.${format}.js`,
+      name: "fancy-ui",
+      fileName: (format) => `fancy-ui.${format}.js`,
     },
     rollupOptions: {
       external: ["react", "react-dom"],
