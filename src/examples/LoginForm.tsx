@@ -26,7 +26,7 @@ export const LoginForm = () => {
         </Text>
         <Text
           as="label"
-          htmlfor="username"
+          htmlFor="username"
           size={"sm"}
           weight={"medium"}
           className="mb-1.5"
@@ -41,7 +41,7 @@ export const LoginForm = () => {
         />
         <Text
           as="label"
-          htmlfor="password"
+          htmlFor="password"
           size={"sm"}
           weight={"medium"}
           className="mb-1.5"
