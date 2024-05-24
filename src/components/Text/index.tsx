@@ -1,5 +1,8 @@
 import { cn } from "@/utils";
-import { PolymorphicRef } from "@/utils/types";
+import {
+  PolymorphicComponentPropsWithRef,
+  PolymorphicRef,
+} from "@/utils/types";
 import { VariantProps, cva } from "class-variance-authority";
 import { forwardRef } from "react";
 
@@ -73,7 +76,7 @@ export const Text: TextComponent = forwardRef(
       className,
       ...props
     }: TextProps<C>,
-    ref?: PolymorphicRef
+    ref?: PolymorphicRef<C>
   ) => {
     const Component = as || "span";
     return (

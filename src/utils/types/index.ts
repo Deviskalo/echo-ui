@@ -1,8 +1,8 @@
 import React from "react";
 
-export type PropfOf<
-  c extends keyof JSX.IntrinsicElements | React.JSXElementConstructor<unknown>,
-> = JSX.LibraryManagedAttributes<c, React.ComponentPropsWithoutRef<C>>;
+export type PropsOf<
+  C extends keyof JSX.IntrinsicElements | React.JSXElementConstructor<unknown>,
+> = JSX.LibraryManagedAttributes<C, React.ComponentPropsWithoutRef<C>>;
 
 type AsProp<C extends React.ElementType> = {
   /**
@@ -34,7 +34,7 @@ export type InheritableElementProps<
 > = ExtendableProps<PropsOf<C>, Props>;
 
 /**
- * A more sophisticated version of `InheritableelementProps` where
+ * A more sophisticated version of `InheritableElementProps` where
  * the passed in `as` prop will determine which props can be included.
  */
 
