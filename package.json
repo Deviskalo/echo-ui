@@ -1,19 +1,19 @@
 {
-  "name": "@dev_iskalo/fancy-ui",
-  "version": "0.0.1",
+  "name": "rapid-ui",
+  "version": "1.0.0",
   "description": "A versatile UI component library for React applications.",
   "type": "module",
   "files": [
     "dist",
     "src"
   ],
-  "main": "dist/fancy-ui-umd.cjs",
-  "module": "dist/fancy-ui.js",
-  "types": "dist/fancy-ui.es.d.ts",
+  "main": "dist/rapid-ui-umd.cjs",
+  "module": "dist/rapid-ui.js",
+  "types": "dist/rapid-ui.es.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/fancy-ui.js",
-      "require": "./dist/fancy-ui-umd.cjs"
+      "import": "./dist/rapid-ui.js",
+      "require": "./dist/rapid-ui-umd.cjs"
     }
   },
   "scripts": {

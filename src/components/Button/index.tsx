@@ -25,6 +25,9 @@ const buttonStyles = cva(
       },
       colorscheme: {
         primary: "bg-blue-500 text-white",
+        secondary: "bg-purple-600 text-white",
+        danger: "bg-red-700 text-white",
+        alert: "bg-yellow-500 text-white",
       },
     },
     compoundVariants: [

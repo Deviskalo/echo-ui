@@ -7,7 +7,10 @@ export default {
     extend: {
       colors: {
         primary: colors.blue,
-      }
+        secondary: colors.purple,
+        danger: colors.red,
+        alert: colors.yellow,
+      },
     },
   },
   plugins: [],

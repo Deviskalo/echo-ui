@@ -16,7 +16,7 @@ const config: StorybookConfig = {
     options: {},
   },
   docs: {
-    autodocs: "tags",
+    autodocs: "tag",
   },
   viteFinal: async (config) => {
     config.plugins?.push(

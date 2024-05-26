@@ -23,9 +23,9 @@ export type ExtendableProps<
 > = OverrideProps & Omit<ExtendedProps, keyof OverrideProps>;
 
 /**
- * Allows for inheriting the prps from the specified element type so that
+ * Allows for inheriting the props from the specified element type so that
  * props like children, className & style work, as well as element-specific
- * attributes like aria roles. The component (`c`) must be  passed in.
+ * attributes like aria roles. The component (`C`) must be  passed in.
  */
 
 export type InheritableElementProps<

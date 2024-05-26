@@ -1,18 +1,18 @@
 import { Button, Input, Text } from "@/components";
 import { Box, Stack } from "@/components/Layout";
 
-export const LoginForm = () => {
+export const RegisterForm = () => {
   return (
-    <Box className="px-8 py-12  border border-gray-300 rounded-xl">
+    <Box className="px-8 py-12  border border-gray-300 rounded-2xl">
       <Stack>
         <Text
           as="h2"
-          weight={"bold"}
+          weight={"semibold"}
           align={"center"}
           size={"3xl"}
           className="mb-2"
         >
-          Login
+          Register
         </Text>
 
         <Text
@@ -22,8 +22,24 @@ export const LoginForm = () => {
           align={"center"}
           className="mb-8"
         >
-          Please enter your credentals to login
+          Please enter your credentals to register
         </Text>
+        <Text
+          as="label"
+          htmlFor="username"
+          size={"sm"}
+          italic={true}
+          weight={"medium"}
+          className="mb-1.5"
+        >
+          Email
+        </Text>
+        <Input
+          type="email"
+          id="email"
+          placeholder="input email"
+          className="mb-4 mt-2"
+        />
         <Text
           as="label"
           htmlFor="username"
@@ -57,10 +73,11 @@ export const LoginForm = () => {
         <Button
           type="submit"
           variant={"solid"}
-          size={"md"}
-          className="mb-4 mt-3 text-xl"
+          size={"sm"}
+          className="mb-4 mt-3 text-xl hover:bg-secondary-500"
+          colorscheme={"secondary"}
         >
-          Login
+          Register
         </Button>
       </Stack>
     </Box>

@@ -17,18 +17,18 @@ type Story = StoryObj<typeof meta>;
 export const Solid: Story = {
     args: {
         variant: "solid",
-        children: "Button"
+        children: "Register"
     }
 }
 export const Outline: Story = {
     args: {
         variant: "outline",
-        children: "Button"
+        children: "Sign Up"
     }
 }
 export const Ghost: Story = {
     args: {
         variant: "ghost",
-        children: "Button"
+        children: "Login"
     }
 }

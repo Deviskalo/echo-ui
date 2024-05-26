@@ -1,10 +1,10 @@
-# fancy-ui
+# rapid-ui
 
-**fancy-ui** is a versatile UI component library for React applications.
+**rapid-ui** is a versatile UI component library for React applications.
 
 ## Description
 
-**fancy-ui** is a comprehensive collection of React components designed to accelerate the development of modern web applications. It offers a wide range of customizable UI elements, from basic buttons and inputs to complex data visualization components. Built with accessibility and performance in mind, **fancy-ui** is suitable for both simple websites and large-scale enterprise applications.
+**rapid-ui** is a comprehensive collection of React components designed to accelerate the development of modern web applications. It offers a wide range of customizable UI elements, from basic buttons and inputs to complex data visualization components. Built with accessibility and performance in mind, **rapid-ui** is suitable for both simple websites and large-scale enterprise applications.
 
 ## Features
 
@@ -24,10 +24,12 @@
 
 ## Installation
 
-You can install **fancy-ui** via npm:
+You can install **rapid-ui** via npm and other package managers:
 
 ```bash
-npm install fancy-ui
-yarn add fancy-ui
-bun add fancy-ui
+npm install rapid-ui
+
+yarn add rapid-ui
+
+bun add rapid-ui
 ```
