@@ -13,8 +13,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/components/index.tsx"),
-      name: "rapid-ui",
-      fileName: (format) => `rapid-ui.${format}.js`,
+      name: "pace-ui",
+      fileName: (format) => `pace-ui.${format}.js`,
     },
     rollupOptions: {
       external: ["react", "react-dom"],

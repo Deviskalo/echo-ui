@@ -1,10 +1,10 @@
-# rapid-ui
+# pace-ui
 
-**rapid-ui** is a versatile UI component library for React applications.
+**pace-ui** is a versatile UI component library for React applications.
 
 ## Description
 
-**rapid-ui** is a comprehensive collection of React components designed to accelerate the development of modern web applications. It offers a wide range of customizable UI elements, from basic buttons and inputs to complex data visualization components. Built with accessibility and performance in mind, **rapid-ui** is suitable for both simple websites and large-scale enterprise applications.
+**pace-ui** is a comprehensive collection of React components designed to accelerate the development of modern web applications. It offers a wide range of customizable UI elements, from basic buttons and inputs to complex data visualization components. Built with accessibility and performance in mind, **pace-ui** is suitable for both simple websites and large-scale enterprise applications.
 
 ## Features
 
@@ -24,12 +24,12 @@
 
 ## Installation
 
-You can install **rapid-ui** via npm and other package managers:
+You can install **pace-ui** via npm and other package managers:
 
 ```bash
-npm install rapid-ui
+npm install pace-ui
 
-yarn add rapid-ui
+yarn add pace-ui
 
-bun add rapid-ui
+bun add pace-ui
 ```

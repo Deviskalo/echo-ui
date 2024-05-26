@@ -1,5 +1,5 @@
 {
-  "name": "rapid-ui",
+  "name": "pace-ui",
   "version": "1.0.0",
   "description": "A versatile UI component library for React applications.",
   "type": "module",
@@ -7,13 +7,13 @@
     "dist",
     "src"
   ],
-  "main": "dist/rapid-ui-umd.cjs",
-  "module": "dist/rapid-ui.js",
-  "types": "dist/rapid-ui.es.d.ts",
+  "main": "dist/pace-ui-umd.cjs",
+  "module": "dist/pace-ui.js",
+  "types": "dist/pace-ui.es.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/rapid-ui.js",
-      "require": "./dist/rapid-ui-umd.cjs"
+      "import": "./dist/pace-ui.js",
+      "require": "./dist/pace-ui-umd.cjs"
     }
   },
   "scripts": {
